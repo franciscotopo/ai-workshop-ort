@@ -29,13 +29,3 @@
 ## Cómo correr cada parte
 
 Los scripts están organizados en carpetas por parte (`part-1/`, `part-2/`, etc.) e importan configuración compartida desde `config.py` en la raíz de `lab-1`. Por eso hay que correrlos como módulo, parado en `lab-1/`: `python -m part-1.basics`
-
-## Ejercicio 1.1
-
-```
-Probar 3 variaciones de temperature y observar el cambio en estilo.
-Cambiar el rol del system para forzar un estilo (p.ej., “responde con viñetas y máximo 3 líneas”).
-Pregunta sugerida: “Resume la diferencia entre entrenamiento y fine-tuning en 3 puntos.”
-```
-
-**Revisar** basics.py 

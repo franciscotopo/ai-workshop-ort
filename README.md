@@ -5,11 +5,16 @@
 ai-workshop-ort/
 ├── .gitignore
 ├── README.md
-├── lab-1/
+└── lab1/
     ├── .env.exaple
     ├── config.py
     ├── requirements.txt
-    ├── part-1/
+    ├── part1/
     |   └── basics.py
     |   └── decoding_params.py
-    └── part-2/
+    ├── part2/
+    |   └──prompting_techniques.py
+    |       └── Zero Shot vs Few Shot
+    |       └── Role Prompting
+    |       └── Chain of Thought
+    |       └── Salida Estructurada
