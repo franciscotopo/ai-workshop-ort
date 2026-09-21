@@ -11,4 +11,5 @@ ai-workshop-ort/
     ├── requirements.txt
     ├── part-1/
     |   └── basics.py
+    |   └── decoding_params.py
     └── part-2/

@@ -24,7 +24,7 @@ prompt = ChatPromptTemplate.from_messages([
 ])
 
 chain = prompt | llm | StrOutputParser()
-# print(chain.invoke({"instruccion": "Explica en 3 frases qué es un LLM y nombra 2 casos de uso."}))
+print(chain.invoke({"instruccion": "Explica en 3 frases qué es un LLM y nombra 2 casos de uso."}))
 
 ### ========== Ejercicio 1.1 ==========
 
@@ -58,9 +58,9 @@ def ejecutar_variacion(temperature: float) -> str:
     
     return chain_output
 
-# for t in temperaturas:
-#     print(f"\n==== temperature: {t} ====")
-#     print(ejecutar_variacion(t))
+for t in temperaturas:
+    print(f"\n==== temperature: {t} ====")
+    print(ejecutar_variacion(t))
 
 def ejecutar_estilo(instruccion: str, estilo: str) -> str:
     
