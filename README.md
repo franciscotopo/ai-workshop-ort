@@ -12,9 +12,15 @@ ai-workshop-ort/
     ├── part1/
     |   └── basics.py
     |   └── decoding_params.py
+    |       └── top_p
+    |       └── repetition_penalty
+    |       └── max_new_tokens
     ├── part2/
-    |   └──prompting_techniques.py
-    |       └── Zero Shot vs Few Shot
-    |       └── Role Prompting
-    |       └── Chain of Thought
-    |       └── Salida Estructurada
+    |   ├── prompting_techniques.py
+    |   |   └── Zero Shot vs Few Shot
+    |   |   └── Role Prompting
+    |   |   └── Chain of Thought
+    |   |   └── Structured Output
+    |   └── exercises.py
+    └── wrap-up/
+        └── ticket_classifier.py
