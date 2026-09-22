@@ -7,7 +7,8 @@ from config import MODEL_ID, HF_TOKEN
 # ========== 1. Zero-shot vs Few-shot ==========
 
 det_endpoint = HuggingFaceEndpoint(
-    repo_id=MODEL_ID, task="conversational",
+    repo_id=MODEL_ID, 
+    task="conversational",
     huggingfacehub_api_token=HF_TOKEN, 
     temperature=0.0,                            # LLM más "determinista"
     max_new_tokens=128
