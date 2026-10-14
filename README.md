@@ -2,6 +2,7 @@
 
 ## Structure
 
+```
 ai-workshop-ort/
 ├── .gitignore
 ├── README.md
@@ -38,3 +39,4 @@ ai-workshop-ort/
     |   └── faiss_search.py
     └── part3_chroma/
         └── chroma_search.py
+```
