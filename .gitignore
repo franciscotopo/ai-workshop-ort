@@ -1,7 +1,10 @@
 .env
-venv/
+venv
 __pycache__/
 *.pyc
 EOF
 .DS_Store
 .vscode/settings.json
+
+lab2/data/
+*.nosync
