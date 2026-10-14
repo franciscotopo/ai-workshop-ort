@@ -1,0 +1,8 @@
+pandas==3.0.6
+sentence-transformers==6.1.0
+pinecone==10.0.0
+faiss-cpu==1.15.1
+chromadb==1.5.9
+python-dotenv==1.2.4
+kagglehub
+tqdm
